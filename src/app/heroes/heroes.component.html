@@ -1,0 +1,23 @@
+<h2>Evills List</h2>
+<!-- <ul class="heroes"> -->
+  <li *ngFor="let hero of heroes">
+        <a class="aaa">{{hero.name}}   
+          <button class="edit" routerLink="/detail/{{hero.id}}"> EDIT</button>
+        </a>
+        <button class="delete" title="delete hero"
+          (click)="delete(hero)">DELETE</button>
+  </li>
+  <app-hero-search></app-hero-search>
+<!-- </ul> -->
+
+<!-- <div>
+  <label>Hero name:
+    <input #heroName />
+  </label>
+  (click) passes input value to add() and then clears the input
+  <button class="add" (click)="add(heroName.value); heroName.value=''">
+    add
+  </button>
+</div> -->
+
+

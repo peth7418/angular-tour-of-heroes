@@ -1,0 +1,9 @@
+<h3>ข้อมูลการแก้ไข</h3>
+
+<div *ngIf="messageService.messages.length">
+  
+  <div *ngFor='let message of messageService.messages'> {{message}} </div>
+
+  </div>
+<button class="clear"
+  (click)="messageService.clear()">ลบข้อมูลล่าสุด</button> 

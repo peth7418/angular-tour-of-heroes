@@ -1,0 +1,18 @@
+<div *ngIf="hero"  >
+
+  <h2 class ="upper">UPPERCASE OF EVILL :<br /></h2> <h2>{{hero.name | uppercase}} </h2>
+  <!-- <div><span>id: </span>{{hero.id}}</div> -->
+  <div>
+    <label>
+      ID :
+      <input  [(ngModel)]= "hero.id" placeholder="กรุณารหัสวายร้าย" disabled />
+      Name:
+      <input  type="text" (change)="onChange($event)"  [(ngModel)]="hero.name" placeholder="กรุณาใส่ชื่อวายร้าย"/>
+      Weapon:
+      <input  [(ngModel)]= "hero.weapon" placeholder="กรุณารหัสวายร้าย"  placeholder="กรุณาใส่ชื่อวายร้าย" />
+    </label>
+  </div>
+  <button class= "back" (click)="goBack()">ย้อนกลับ</button>
+  <button class = "save" (click)="save()">บันทึก</button>
+  <!-- <button (click)="goDone()">goDone</button> -->
+</div>

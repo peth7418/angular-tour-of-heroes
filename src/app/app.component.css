@@ -1,0 +1,35 @@
+/* AppComponent's private CSS styles */
+.addhero {
+  color : rgb(7, 223, 36);
+  background-color: #DDD;
+  left: .5em;
+}
+h3 {
+    color: rgb(224, 17, 17);
+    margin-bottom: 0;
+  }
+  h2 {
+    font-size: 2em;
+    margin-top: 0;
+    padding-top: 0;
+  }
+  nav a {
+    padding: 5px 15px;
+    text-decoration: navajowhite;
+    margin-top: 20px;
+    display: inline-block;
+    background-color: #eee;
+    border-radius: 4px;
+  }
+  nav a:visited, a:link {
+    color: #607d8b;
+  }
+  nav a:hover {
+    color: #039be5;
+    background-color: #cfd8dc;
+  }
+  nav a.active {
+    color: #039be5;
+  }
+
+

@@ -1,0 +1,86 @@
+/* HeroesComponent's private CSS styles */
+ .heroes {
+  margin: center;
+  list-style-type: center;
+  padding: 0;
+  width: 15em;
+  position: relative;
+}
+.heroes li {
+  list-style-type: center;
+  position: relative;
+  cursor: pointer;
+  background-color: #EEE;
+  margin: .5em;
+  padding: .3em;
+  height: 1.6em;
+  border-radius: 4px;
+}
+.delete{
+  color : red;
+  background-color: #DDD;
+  left: .5em;
+}
+.add{
+  color : rgb(1, 180, 76);
+  background-color: #DDD;
+  left: .5em;
+}
+.edit{
+  color : rgb(223, 7, 169);
+  background-color: #DDD;
+  left: .5em;
+}
+.heroes li:hover {
+  color: #607D8B;
+  background-color: #DDD;
+  left: .1em;
+}
+
+ .heroes a {
+  margin: center;
+  color: #888;
+  text-decoration: none;
+  position: relative;
+  /* display: block; */
+} 
+
+ .heroes a:hover {
+  color:#607D8B;
+} 
+
+ .heroes .badge {
+  margin: center;
+  /* display: inline-block; */
+  font-size: medium;
+  color: white;
+  padding: 0.8em 0.7em 0 0.7em;
+  background-color: #607D8B;
+  /* line-height: 1em;
+  position: relative;
+  left: -1px;
+  top: -4px;
+  height: 1.8em;
+  min-width: 16px;
+  text-align: right;
+  margin-right: .8em;  */
+  border-radius: 4px 0 0 4px;
+}
+
+.heroes .aaa {
+  margin: center;
+  display: inline-block;
+  font-size: medium;
+  color: rgb(212, 16, 16);
+  padding: 0.8em 0.7em 0 0.7em;
+  background-color: #607D8B;
+  line-height: 1em;
+  position: relative;
+  left: -1px;
+  top: -4px;
+  height: 1.8em;
+  min-width: 16px;
+  text-align: right;
+  margin-right: .8em; 
+  border-radius: 4px 0 0 4px;
+}
